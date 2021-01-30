@@ -1,0 +1,310 @@
+@font-face {
+	font-family: "Geometria";
+	src: url("../fonts/Geometria.woff2") format("woff2"), url("../fonts/Geometria.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Geometria";
+	src: url("../fonts/Geometria-Bold.woff2") format("woff2"), url("../fonts/Geometria-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Geometria";
+	src: url("../fonts/Geometria-BoldItalic.woff2") format("woff2"),
+		url("../fonts/Geometria-BoldItalic.woff") format("woff");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Geometria";
+	src: url("../fonts/Geometria-LightItalic.woff2") format("woff2"),
+		url("../fonts/Geometria-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Geometria";
+	src: url("../fonts/Geometria-Italic.woff2") format("woff2"), url("../fonts/Geometria-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* ________________Обнуление_________________ */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+body {
+	font-family: "Geometria";
+	line-height: 1;
+}
+/* ___________блок header___________________________ */
+
+.header h2 {
+	font-size: 40px;
+	line-height: 200%;
+	color: crimson;
+	text-decoration: underline;
+	text-align: center;
+}
+.header__title {
+	font-weight: 700;
+	line-height: 100%;
+	font-size: 70px;
+	color: blue;
+	text-align: justify;
+	letter-spacing: 20px;
+	text-shadow: 20px 30px 5px coral;
+}
+.nav a {
+	font-size: 30px;
+	color: rgba(35, 0, 100, 0.753);
+	line-height: 300%;
+	font-weight: 700;
+	text-shadow: 15px 30px 2px black;
+}
+.position__center {
+	text-align: center;
+}
+.position__end {
+	text-align: right;
+}
+
+
+/* ___________Main___________________________ */
+
+/* ___________блок 1___________________________ */
+
+.block__site-title,
+.title {
+	font-size: 30px;
+	text-align: center;
+	line-height: 400%;
+	font-weight: 700;
+	font-style: italic;
+	color: aqua;
+	letter-spacing: 2px;
+}
+.block__site p {
+	font-weight: 300;
+	font-style: italic;
+	text-indent: 100px;
+	line-height: 200%;
+	text-align: right;
+	text-shadow: 1px 1px 1px greenyellow;
+	text-transform: capitalize;
+}
+.block__list li {
+	font-size: 25px;
+	color: blue;
+	text-shadow: 4px 4px 1px chocolate;
+}
+.block__list span {
+	font-size: 30px;
+	color: hotpink;
+	text-decoration: underline;
+	text-transform: capitalize;
+	text-shadow: 10px 10px 4px red;
+	font-style: italic;
+	font-weight: 700;
+}
+.block__list.teglist span {
+	color: blueviolet;
+}
+.block__list.teglist li {
+	color: red;
+	text-shadow: none;
+	text-transform: uppercase;
+}
+/* ___________блок 2___________________________ */
+
+.block__kinds h3 {
+	font-size: 30px;
+	color: brown;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.images {
+	text-align: center;
+}
+.kinds__list li {
+	text-transform: capitalize;
+	text-shadow: 2px 2px 2px green;
+	font-size: 50px;
+	text-align: right;
+}
+p mark {
+	color: rgba(50, 47, 255, 0.678);
+	font-size: 25px;
+	font-weight: 700;
+}
+.block__kinds p {
+	line-height: 300%;
+	text-decoration: overline;
+	font-style: italic;
+	text-transform: capitalize;
+	text-shadow: 2px 2px 2px blueviolet;
+}
+p.kinds__text {
+	font-style: italic;
+	font-weight: 700;
+	line-height: 150%;
+	text-decoration: none;
+	font-size: 15px;
+	word-spacing: 20px;
+}
+/* ___________блок 3___________________________ */
+
+.block__Validnaya ul > li {
+	text-transform: lowercase;
+	color: darkgoldenrod;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 70px;
+	letter-spacing: 30px;
+}
+
+.text__validnaya {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 45px;
+	color: crimson;
+	letter-spacing: 50%;
+	text-decoration: line-through;
+	text-align: justify;
+	letter-spacing: 1.5px;
+}
+p.text__validnaya mark {
+	text-decoration: none;
+	color: green;
+	font-weight: 700;
+	font-size: 50px;
+}
+/* ___________блок 4___________________________ */
+.block__good span,
+mark {
+	text-decoration: line-through;
+	color: darkblue;
+	font-size: 20px;
+	letter-spacing: 25px;
+}
+.good__title {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 70px;
+	text-transform: capitalize;
+	text-align: justify;
+	text-shadow: -25px -10px 10px blueviolet;
+}
+.good_list {
+	font-weight: 700;
+	font-style: oblique;
+	line-height: 55px;
+	color: cornflowerblue;
+}
+li.text {
+	color: darkmagenta;
+	font-size: 21px;
+	font-style: italic;
+	word-spacing: 30px;
+}
+/* ___________блок 5___________________________ */
+.block__tool li {
+	text-align: center;
+	color: greenyellow;
+	font-size: 50px;
+	font-weight: 700;
+	text-shadow: -25px -40px 5px black;
+}
+
+.parahraf p {
+	text-align: right;
+	color: orangered;
+	font-size: 31px;
+}
+
+/* ___________блок 6___________________________ */
+.block__test p {
+	font-weight: 700;
+	color: indigo;
+	line-height: 200%;
+}
+.test__title {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 60px;
+	color: hotpink;
+	text-align: end;
+	text-decoration: underline;
+	text-transform: capitalize;
+	line-height: 120%;
+	letter-spacing: 15px;
+	word-spacing: 40px;
+}
+.block__test a {
+	color: red;
+	text-shadow: -10px -10px 3px black;
+}
+.block__test li {
+	color: coral;
+	font-size: 30px;
+	text-align: center;
+}
+.no {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: cyan;
+}
+/* ___________footer ___________________________ */
+.block__down {
+	font-weight: 700;
+	font-style: oblique;
+	font-size: 40px;
+	color: darkblue;
+}
+.block__down span {
+	white-space: nowrap;
+}
